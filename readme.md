@@ -1,9 +1,5 @@
 # Aplicação Web para Doação e Troca de Livros
 
-## Introdução
-
-A aplicação web proposta visa promover a sustentabilidade e a acessibilidade à leitura, permitindo que usuários doem, troquem ou recebam livros que já leram ou que não desejam mais manter em suas coleções. A plataforma funcionará como um ponto de encontro para amantes de livros, facilitando a troca e a doação de livros de maneira eficiente e organizada, além de fomentar uma comunidade de leitores apaixonados.
-
 ## Objetivos
 
 1. **Facilitar a troca e doação de livros**: Criar um ambiente onde os usuários possam facilmente doar ou trocar livros.

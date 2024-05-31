@@ -10,7 +10,7 @@ export default function Page() {
       <h2>Index</h2>
 
       <button type="button" onClick={() => router.push('/register')}>
-        /register
+        Cadastrar novo usuario
       </button>
     </main>
   )

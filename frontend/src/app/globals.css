@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --base-yellow: #FAFF1D;
     --base-orange: #FF964A;
     --base-white: #FFFBFB;
-    --background: #F9EFD4;
-    --hover-orange: #DF7E39;
+    --base-black: #000000;
     --base-red: #F54A4A;
     --base-pink: #FF7FFA;
     --base-blue: #3042E8;
-    --unselected-white: #D9D9D9;
     --base-green: #57AD75;
+    --background: #F9EFD4;
+    --hover-orange: #DF7E39;
+    --unselected-white: #D9D9D9;
 }
 
 * {
@@ -18,4 +21,12 @@
 
 body {
     background-color: var(--background);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
 }

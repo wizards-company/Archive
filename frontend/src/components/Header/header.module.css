@@ -1,3 +1,15 @@
-.container{
-   
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+  background-color: #faff1d;
+  box-shadow: 0 4px 2px 0px gray;
+}
+
+.nav {
+  display: flex;
+  gap: 2em;
+  text-decoration: none;
+  color: black;
 }

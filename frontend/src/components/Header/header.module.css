@@ -31,3 +31,17 @@
 .logo:hover {
   box-shadow: 0 1px 0 var(--base-black);
 }
+
+@media (max-width: 425px) {
+  .container {
+    font-size: 16px;
+  }
+
+  .logo {
+    margin-left: 10px;
+  }
+
+  .nav {
+    margin-right: 10px;
+  }
+}

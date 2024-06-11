@@ -1,0 +1,9 @@
+.btn {
+    padding: 5px 10px;
+    background-color: var(--base-orange);
+    outline: 1.5px solid var(--base-black);
+}
+
+.btn:hover {
+    background-color: var(--hover-orange);
+}

@@ -1,6 +1,10 @@
-export default function Menu() {
+export default function Menu({ setIsModalClosed }) {
+    function openModal() {
+        setIsModalClosed(prev => !prev)
+    }
+
     return (
-        <svg width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg onClick={() => openModal()} width="34" height="24" viewBox="0 0 34 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="32" cy="22" r="2" fill="black" />
             <circle cx="32" cy="12" r="2" fill="black" />
             <circle cx="2" cy="22" r="2" fill="black" />

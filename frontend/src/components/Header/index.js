@@ -5,9 +5,11 @@ import ProfileIcon from "../ProfileIcon";
 import { useEffect, useState } from "react";
 import Button from "../Button";
 import Menu from "../Menu";
+import Modal from "../Modal";
 
 export default function Header() {
   const [isLogged, setIsLogged] = useState(true)
+  const [isModalClosed, setIsModalClosed] = useState(true)
   const [windowWidth, setWindowWidth] = useState(0)
   useEffect(() => {
     setWindowWidth(window.innerWidth)
@@ -25,7 +27,8 @@ export default function Header() {
                 Blogs
               </Link>
               <ProfileIcon />
-              <Menu />
+              <Modal isModalClosed={isModalClosed} setIsModalClosed={setIsModalClosed} />
+              <Menu setIsModalClosed={setIsModalClosed} />
             </>
             :
             <>

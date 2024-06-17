@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.containerMenor {
+    border-radius: 20px;
+    border: 1px solid black;
+    width:700px;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.autor {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.book {
+    background-color: #333;
+    width: 122px;
+    height: 191px;
+}
+
+.infos {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    background-color: #45c545;
+    gap: 10px;
+}
+
+.btn {
+    width: 68px;
+    height: 20px;
+    background-color: #3042E8;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid black;
+}
+
+.div {
+    display: flex;
+    width: 100vw;
+    border-top: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    
+}
+
+.btnBook {
+    width: 155px;
+    height: 29px;
+    background-color: #3042E8;
+    border: 1px solid black;
+    color: white;
+    font-size:15px;
+}

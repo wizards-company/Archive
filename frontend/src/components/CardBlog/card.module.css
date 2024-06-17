@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    flex-direction: column;
+    
+}
+
+.main { 
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 700px;
+    background-color: white;
+}
+
+.card { 
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.name {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.date {
+
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.paragraph {
+    font-size: 15px;
+    line-height: 20px ;
+    margin-top:30px;
+}
+
+.btn {
+    width: 86px;
+    height: 26px;
+    background-color: #57AD75;
+    border-radius:50px;
+    color: white;
+    font-size:15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.divButton {
+    display: flex;
+    width: 730px;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+}
+
+.buttonBlog {
+    width: 113px;
+    height: 29px;
+    background-color: #3042E8;
+    color: white;
+    font-size:15px;
+}
+
+.divbtn{
+    margin-top: 10px;
+    width: 65px;
+}

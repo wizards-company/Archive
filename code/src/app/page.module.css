@@ -1,0 +1,37 @@
+/* page.module.css */
+
+/* Estilo principal: faz tudo ficar no lugar certo */
+.main {
+  min-height: 100vh;                    /* Mantém tudo na tela, sem sumir */
+  display: flex;                        /* Arruma tudo como um organizador de estantes */
+  flex-direction: column;               /* Coloca um embaixo do outro, como camadas de um bolo */
+  align-items: center;                  /* Centraliza na horizontal, como uma mira de arco e flecha */
+  justify-content: center;              /* No meio da tela, tipo o astro principal do show */
+  text-align: center;                   /* Texto bem no centro, não sai fora do roteiro */
+}
+
+/* Título principal: o chefe da gangue */
+.main h1 {
+  font-size: 2rem;                      /* Tamanho do título, grandão como o Godzilla */
+  margin-bottom: 20px;                  /* Espaço embaixo, respeita o pessoal que vem depois */
+}
+
+/* Texto de apoio: o suporte da trama */
+.main p {
+  font-size: 1.2rem;                    /* Letras do tamanho certo, como a carta de um pirata */
+  line-height: 1.6;                     /* Espaço entre linhas, como um diálogo bem pausado */
+}
+
+/* Imagem: o astro coadjuvante */
+.main img {
+  max-width: 100%;                      /* Não exagera, fica na moldura da tela */
+  margin-top: 30px;                     /* Um pouco de espaço lá em cima, como uma luz no palco */
+  margin-bottom: 30px;                  /* E lá embaixo, porque todos merecem um descanso */
+  border-radius: 8px;                   /* Borda redondinha, para abraçar a imagem como um amigo */
+  box-shadow: 0 4px 8px rgb(0, 0, 0); /* Sombra bem de leve, para dar aquele charme */
+}
+
+/* Links: os convidados especiais */
+.main div {
+  margin: 10px 0px;                     /* Espaço entre o texto e os links, como um corredor no evento */
+}

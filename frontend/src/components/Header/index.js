@@ -15,13 +15,12 @@ export default function Header() {
     setWindowWidth(window.innerWidth)
   }, [])
 
-
   return (
     <header className={style.container}>
       <Link href="/" className={style.logo}>Libs</Link>
       {isLogged ?
         <nav className={style.nav}>
-          {windowWidth < 425 ?
+          {windowWidth < 450 ?
             <>
               <Link className={style.navItem} href="Blogs">
                 Blogs

@@ -28,10 +28,6 @@
     outline: 1.5px solid var(--base-black);
 }
 
-.btnPadding {
-    padding: 5px 10px;
-}
-
 .btn:hover {
     background-color: var(--btn-hover-color);
 }

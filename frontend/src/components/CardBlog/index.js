@@ -1,4 +1,3 @@
-
 import Button from '../Button';
 import ProfileIcon from '../ProfileIcon';
 import style from './card.module.css';
@@ -49,7 +48,6 @@ export default function CardBook() {
                 <Button text="Ir para blogs" variant="blue" e textColor="--base-white"/>
                 </div>
             </div>
-
 
         </section>
     );

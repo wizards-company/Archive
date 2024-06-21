@@ -6,13 +6,10 @@ import CardBlog from '../CardBlog'
 import Button from '../Button'
 
 export default function Container() {
-
     return (
         <> 
-            
             <CardBlog/>
             <CardBook/>
-            
         </>
     )
 }

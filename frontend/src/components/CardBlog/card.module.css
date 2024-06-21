@@ -4,7 +4,6 @@
     justify-content: center;
     margin-top: 60px;
     flex-direction: column;
-    
 }
 
 .main { 
@@ -24,15 +23,12 @@
     align-items: center;
 }
 
-
-
 .name {
     font-size: 16px;
     margin-left: 10px;
 }
 
 .date {
-
     font-size: 16px;
     margin-left: 20px;
 }

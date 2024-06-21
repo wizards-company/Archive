@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   background-color: var(--base-yellow);
   box-shadow: 0 4px 2px 0px gray;
   font-weight: 600;

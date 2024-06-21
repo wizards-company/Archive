@@ -1,15 +1,9 @@
-import Head from 'next/head'
-import Header from '../Header'
-import style from './container.module.css'
-import CardBook from '../CardBook'
-import CardBlog from '../CardBlog'
-import Button from '../Button'
+import style from "./container.module.css"
 
-export default function Container() {
+export default function Container({ children }) {
     return (
-        <> 
-            <CardBlog/>
-            <CardBook/>
-        </>
+        <div className={style.container}>
+            {children}
+        </div>
     )
 }

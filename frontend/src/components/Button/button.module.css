@@ -24,16 +24,13 @@
 .btn {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--btn-base-color);
     outline: 1.5px solid var(--base-black);
 }
 
 .btn:hover {
     background-color: var(--btn-hover-color);
-}
-
-.text+div {
-    margin-left: 10px;
 }
 
 .iconImg {

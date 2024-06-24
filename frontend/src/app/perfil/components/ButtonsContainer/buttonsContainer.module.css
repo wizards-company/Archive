@@ -1,0 +1,10 @@
+.container {
+  margin-top: 15px;
+  display: flex;
+  border-top: 1.5px solid var(--base-black);
+  border-bottom: 1.5px solid var(--base-black);
+}
+
+.container button:nth-child(-n + 2) {
+  border-right: 1.5px solid var(--base-black);
+}

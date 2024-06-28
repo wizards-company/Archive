@@ -5,7 +5,7 @@ import BlogTab from "./components/BlogsTab/BlogTab"
 import Actions from "./components/Actions/Actions"
 import style from "./Perfil.module.css"
 import ButtonsContainer from "./components/ButtonsContainer/ButtonsContainer"
-import CardBook from "@/components/CardBook"
+import CardBook from "@/components/CardBookContainer"
 
 export default function Perfil() {
   const [profileInfo, setProfileInfo] = useState(null)

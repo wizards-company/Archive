@@ -1,9 +1,9 @@
 .container {
-  margin-top: 20px;
+  margin: 20px auto;
   border-radius: 5px;
   border: 1.5px solid black;
   width: 90%;
-  background-color: white;
+  background-color: var(--base-white);
 }
 
 @media (min-width: 768px) {

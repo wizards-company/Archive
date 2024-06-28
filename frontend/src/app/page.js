@@ -1,18 +1,11 @@
-import CardBlog from "@/components/CardBlog";
-import Header from "@/components/Header";
-import style from "./page.module.css"
-import CardBook from "@/components/CardBook";
+import CardBlog from "@/components/CardBlog"
+import CardBook from "@/components/CardBookContainer"
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <div className={style.centralize}>
-        <CardBlog />
-      </div>
-      <div className={style.centralize}>
-        <CardBook />
-      </div>
+      <CardBlog />
+      <CardBook />
     </main>
-  );
+  )
 }

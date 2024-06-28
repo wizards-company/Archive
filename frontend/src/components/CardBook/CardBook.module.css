@@ -1,0 +1,35 @@
+.cardBook {
+  /* background-color: #3042E8; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 140px;
+  justify-content: center;
+}
+
+.titulos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.autor {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.book {
+  margin: 5px auto 0 auto;
+  background-color: #333;
+  width: 90%;
+  height: 191px;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 5px;
+}

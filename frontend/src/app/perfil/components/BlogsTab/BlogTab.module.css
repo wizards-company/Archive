@@ -1,0 +1,39 @@
+.username {
+  display: none;
+}
+
+.contentAreaSmall {
+  padding-bottom: 15px;
+}
+
+.contentAreaBig {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .flexReverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .contentAreaBig {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .contentAreaSmall {
+    display: none;
+  }
+
+  .username {
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 22px;
+  }
+
+  .contentContainer {
+    width: 100%;
+    box-shadow: 1.5px 0px 0px var(--base-black);
+  }
+}

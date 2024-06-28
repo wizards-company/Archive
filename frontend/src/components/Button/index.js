@@ -3,7 +3,7 @@ import Link from "next/link";
 import style from "./button.module.css"
 import Image from "next/image";
 
-export default function Button({ text = undefined, href = "/", variant, icon = undefined, weight, p = "5px 10px", textColor = "--base-black", width }) {
+export default function Button({ text = undefined, href = "/", variant, icon = undefined, weight, p = "5px 10px", textColor = "--base-black", width, fontSize }) {
     // Faz a primeira letra do text maiúscula 
     const newText = text ? text.slice(0, 1).toUpperCase().concat(text.slice(1)) : null
     const classVariant = style[variant]
@@ -13,7 +13,8 @@ export default function Button({ text = undefined, href = "/", variant, icon = u
     }
     const pProps = {
         fontWeight: weight,
-        color: `var(${textColor})`
+        color: `var(${textColor})`,
+        fontSize: fontSize
     }
 
     const iconProps = {

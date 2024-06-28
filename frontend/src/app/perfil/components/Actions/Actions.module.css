@@ -1,0 +1,81 @@
+.actionsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.actions {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.actionsButtonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8px;
+}
+
+.actionsButtons {
+  width: 185px;
+  transform: translateY(-1.5px) translateX(1.5px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.actionsButtons a:nth-child(-n + 2) div p {
+  display: none;
+}
+
+.actionsButtons a:last-child div p {
+  padding: 0 5px;
+}
+
+.perfil {
+  height: 50px;
+  width: 50px;
+  background-color: var(--base-orange);
+}
+
+@media (min-width: 768px) {
+  .actionsButtonsContainer {
+    margin-left: 0px;
+  }
+
+  .perfil {
+    height: 60px;
+    width: 60px;
+  }
+
+  .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actionsButtonsContainer {
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .actionsButtons {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .actionsButtons a {
+    margin-top: 15px;
+    width: 150px;
+  }
+
+  .actionsButtons a:nth-child(-n + 2) div p {
+    display: block;
+  }
+
+  .actionsButtons a div p {
+    margin-left: 10px;
+  }
+
+  .actionsButtons a:last-child div p {
+    padding: 0px;
+  }
+}

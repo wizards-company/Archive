@@ -1,0 +1,62 @@
+.container {
+  margin-top: 15px;
+  width: 95%;
+  margin-left: 10px;
+  border-bottom: 1.5px solid var(--base-black);
+  padding-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.imgIcon {
+  width: 20px;
+  height: 20px;
+  background-color: var(--base-orange);
+}
+
+.authorName {
+  font-size: 15px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.mt5 {
+  margin-top: 10px;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.heartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 15px;
+  height: 20px;
+  /* background-color: aqua; */
+}
+
+.heart {
+  position: absolute;
+  width: 15px;
+  height: auto;
+}
+
+.comment {
+  width: 15px;
+  height: auto;
+}

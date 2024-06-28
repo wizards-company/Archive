@@ -2,10 +2,27 @@
   display: none;
 }
 
+.contentAreaSmall {
+  padding-bottom: 15px;
+}
+
+.contentAreaBig {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .flexReverse {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .contentAreaBig {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .contentAreaSmall {
+    display: none;
   }
 
   .username {

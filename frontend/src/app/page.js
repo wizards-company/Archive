@@ -1,6 +1,6 @@
-import CardBlog from "@/components/CardBlog";
+import CardBlog from "@/components/CardBlog"
 import style from "./page.module.css"
-import CardBook from "@/components/CardBook";
+import CardBook from "@/components/CardBook"
 
 export default function Home() {
   return (
@@ -8,5 +8,5 @@ export default function Home() {
       <CardBlog />
       <CardBook />
     </main>
-  );
+  )
 }

@@ -5,7 +5,8 @@ import BlogTab from "./components/BlogsTab/BlogTab"
 import Actions from "./components/Actions/Actions"
 import style from "./Perfil.module.css"
 import ButtonsContainer from "./components/ButtonsContainer/ButtonsContainer"
-import CardBook from "@/components/CardBookContainer"
+import DonnationTab from "./components/DonnationTab/DonnationTab"
+import SavedTab from "./components/SavedTab/SavedTab"
 
 export default function Perfil() {
   const [profileInfo, setProfileInfo] = useState(null)
@@ -63,8 +64,8 @@ export default function Perfil() {
           <ButtonsContainer setSelectBtn={setSelectBtn} selectBtn={selectBtn} />
 
           {selectBtn == 0 && <BlogTab profileInfo={profileInfo} />}
-          {selectBtn == 1 && <div>a</div>}
-          {selectBtn == 2 && <div>b</div>}
+          {selectBtn == 1 && <DonnationTab profileInfo={profileInfo} />}
+          {selectBtn == 2 && <SavedTab profileInfo={profileInfo} />}
         </div>
       </div>
     </Container>
